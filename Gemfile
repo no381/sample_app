@@ -31,15 +31,8 @@ group :test do
 end
 
 group :production do
-<<<<<<< HEAD
   gem 'pg', '0.18.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-=======
-  gem 'pg',             '0.17.1'
-  gem 'rails_12factor', '0.0.2'
-  gem 'puma',           '3.1.0'
-end
->>>>>>> e4bf311ce6835aee1647ff2b3410e29085a13046
